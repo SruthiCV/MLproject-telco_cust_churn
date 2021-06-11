@@ -15,11 +15,10 @@ churn=churn.drop(['customerID','PhoneService'],axis=1)
 #Check if the dataframe still includes any null values or not
 churn.isnull().any()
 
-#Since we do not have anymore NULL values, we proceed with some plotting
+#Since we do not have any NULL values, we proceed with some plotting
 %matplotlib inline
 churn.hist()
 
-![Hist1](https://user-images.githubusercontent.com/38309595/121623522-2eea5d00-cab3-11eb-815b-5bc4fa801508.PNG)
 
 
 
